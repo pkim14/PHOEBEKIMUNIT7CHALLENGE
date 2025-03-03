@@ -15,11 +15,11 @@ public class Main {
 //            int x = random.nextInt(51);
 //            int y = random.nextInt(51);
 
-            int  x = (int) (Math.random() * 50);
-            int y = (int) (Math.random() * 50);
+            int  x = (int) (Math.random() * 50) + 1;
+            int y = (int) (Math.random() * 50) + 1;
 
             int length = (int)(Math.random() * (50-10+1) + 10);
-            int width = (int)(Math.random() * (50-10+1) + 10);
+            int width = (int)(Math.random() * (6) + 5);
 
 //            int length = random.nextInt(41) + 10;
 //            int width = random.nextInt(6) + 5;
